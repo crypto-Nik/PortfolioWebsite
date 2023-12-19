@@ -1,0 +1,23 @@
+[
+    
+    {
+      "role": "Product Delivery Engineer (React)",
+      "organisation": "Numino Labs",
+      "startDate": "Aug, 2022",
+      "endDate": "Present",
+      "experiences": ["Spearheaded the development of Storybook.js framework", "Debugged and fixed P0/P1 bugs.", "Developed user interfaces for deployment on Amazon Web Services (AWS) platforms and hosted it on Cloudfront."],
+      "imageSrc": "history/microsoft.png"
+    },
+    {
+      "role": "UI/UX Developer",
+      "organisation": "Netflix",
+      "startDate": "Sept 2019",
+      "endDate": "Jan, 2021",
+      "experiences": [
+        "Used HTML CSS JavaScript and foundation framework to build interactive and responsive website using foundation framework.",
+        "Implement websites and landing pages with a responsive, mobile-first approach.",
+        "Assessed UX and UI designs for technical feasibility."
+      ],
+      "imageSrc": "history/webware.png"
+    }
+  ]
