@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi I am Nikhil</h1>
+        <h1 className={styles.title}>Hi, I'm Nikhil</h1>
         <p className={styles.description}>
           I’m a full-stack developer with 5 years of experience using React and
           NodeJS. Reach out if you’d like to learn more!
