@@ -8,23 +8,36 @@
       "imageSrc": "skills/css.png"
     },
     {
+      "title": "Sass",
+      "imageSrc": "skills/sass.png"
+    },
+    
+    {
       "title": "React",
       "imageSrc": "skills/react.png"
+    },
+    
+    {
+      "title": "Redux",
+      "imageSrc": "skills/redux.png"
+    },
+    {
+      "title": "React Native",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "AWS S3",
+      "imageSrc": "skills/awsS3.png"
+    },
+    {
+      "title": "Cloudfront",
+      "imageSrc": "skills/cloudfront.png"
     },
     {
       "title": "Node",
       "imageSrc": "skills/node.png"
-    },
-    {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
-    },
-    {
-      "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
-    },
-    {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
     }
+   
+  
+   
   ]

@@ -21,10 +21,10 @@ function Experience() {
         <ul className={styles.history}>
           {history.map((history, id) => (
             <li key={id} className={styles.historyItem}>
-              <img
+              {/* <img
                 src={getImageUrl(history.imageSrc)}
                 alt={history.organisation}
-              />
+              /> */}
               <div className={styles.historyItemDetails}>
                 <h3>
                   {history.role}, {history.organisation}

@@ -8,20 +8,22 @@ function Hero() {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Nikhil</h1>
         <p className={styles.description}>
-          I’m a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you’d like to learn more!
+          I am a React Developer with 2.6 years of experience in building and
+          maintaining user interfaces and front-end components using React.js,
+          Redux, JavaScript, HTML, and CSS.
         </p>
         <a
-          href="mailto:nikhilgadekar0@gmail.com"
+          href="/assets/cv/resume.pdf"
+          download="Nikhil's Resume"
           className={styles.contactButton}
         >
-          Contact Me
+          Download Resume
         </a>
       </div>
       <img
         className={styles.heroImg}
         alt="hero-image"
-        src={getImageUrl("hero/heroImage.png")}
+        src={getImageUrl("hero/heroMan.png")}
       ></img>
       <div className={styles.topBlur}></div>
       <div className={styles.bottomBlur}></div>
