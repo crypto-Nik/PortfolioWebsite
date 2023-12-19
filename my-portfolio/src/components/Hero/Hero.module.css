@@ -1,0 +1,115 @@
+@import "../../vars.css";
+
+.container {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.content {
+    display: flex;
+  
+    flex-direction: column;
+    color: var(--color-text);
+    z-index: 1;
+}
+
+.title {
+   font-family: var(--font-roboto);
+font-size: 72px;
+font-style: normal;
+font-weight: 800;
+background: linear-gradient(90deg, #FFF 80.05%, rgba(255, 255, 255, 0.00) 142.63%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+
+.description{
+    font-family: var(--font-roboto);
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 52px;
+}
+
+.contactButton {
+    border-radius: 100px;
+background: var(--color-primary);
+color: #FFF;
+padding: 17px 26px;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+width: fit-content;
+text-decoration: none;
+box-shadow: 0 0 4px 0 rgba(0, 0,0 ,0.25);
+}
+
+.heroImg {
+    width: 50%;
+    z-index: 1;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0,0px);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-width: 350px;
+    top: -128px;
+    left: -21vw;
+    border-radius: 764px;
+    background: rgba(25, 55,109 ,0.7);
+    filter: blur(100px);
+
+}
+
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 250px;
+   
+top: 23px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(25, 55,109 ,0.7);
+    filter: blur(100px);
+} 
+
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column-reverse;
+
+    }
+    .content {
+        align-items: center;
+    }
+    
+}

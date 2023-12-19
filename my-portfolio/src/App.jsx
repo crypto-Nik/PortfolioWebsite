@@ -1,15 +1,14 @@
-
-import styles from "./App.module.css"
-import Navbar from "./components/Navbar"
+import styles from "./App.module.css";
+import Hero from "./components/Hero/Hero";
+import Navbar from "./components/Navbar";
 
 function App() {
-
-
   return (
-    
-      <div className={styles.App}><Navbar/></div>
-   
-  )
+    <div className={styles.App}>
+      <Navbar />
+      <Hero />
+    </div>
+  );
 }
 
-export default App
+export default App;
