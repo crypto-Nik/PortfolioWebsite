@@ -1,0 +1,78 @@
+@import "../../vars.css";
+
+.aboutContainer{
+    border-radius: 15px;
+    background: rgba(12, 12, 12, 0.60);
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.innnerCardContainer{
+    border-radius: 20px;
+background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0.00) 100%);
+padding: 20px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+margin-bottom: 13px;
+background-size: 0 100%;
+background-repeat: no-repeat;
+transition: 0.4s;
+}
+
+.innnerCardContainer:hover{
+    background-size: 100% 100%;
+}
+
+.cardIcon {
+    
+}
+
+.cardTitle {
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 1.25px;
+}
+
+.cardDesc{
+font-family: Outfit;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 1.25px;
+}
+
+.cardContainer {
+
+}
+
+.aboutTitle {
+    margin-left: 75px;
+    margin-top: 52px;
+    font-family: Outfit;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutImage {
+        display: none;
+    }  
+    .aboutContainer{
+      
+        background: none;
+        flex-direction: column;
+        align-items: flex-start;
+    } 
+    .aboutTitle {
+        margin: 52px 0;
+    }
+}
