@@ -4,7 +4,23 @@
       "imageSrc": "projects/project.png",
       "description": "This is a portfolio website made using react",
       "skills": ["React", "Html", "Css", "JavsScript"],
-      "demo": "https://www.example.com",
+      "demo": "https://nikhil-resume09.netlify.app/",
       "source": "https://github.com/crypto-Nik/PortfolioWebsite"
+    },
+    {
+      "title": "Security Admin Portal",
+      "imageSrc": "projects/project.png",
+      "description": "Security Admin Portal detects file uploads of employees",
+      "skills": ["React", "JavsScript", "Mui", "Axios", "React Router", "Google Sign in"],
+      "demo": "https://drive.google.com/file/d/10OrEECzxnAOwRupKxdjB6PZRE_3KlB-p/view?usp=sharing"
+      
+    },
+    {
+      "title": "Promptmule",
+      "imageSrc": "projects/project.png",
+      "description": "Client Project",
+      "skills": ["React", "Html", "Css", "JavsScript", "Mantine Ui", "Axios", "React Router"],
+      "demo": "https://drive.google.com/file/d/113QkyDolWeZizCMOtX0ukp2Np_7Xj3C-/view?usp=drive_link"
+      
     }
   ]
