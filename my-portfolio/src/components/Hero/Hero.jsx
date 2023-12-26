@@ -14,7 +14,7 @@ function Hero() {
         </p>
         <a
           href="/assets/cv/resume.pdf"
-          download="Nikhil's Resume"
+          download="Nikhil-Resume"
           className={styles.contactButton}
         >
           Download Resume
